@@ -1,0 +1,15 @@
+.Complete-Container{
+    margin-top: 20px;
+}
+
+.ReserveComplete-Top{
+    height: 100px;
+    background-color: var(--box-reserve-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ReserveComplete-Top h3{
+    color: #fff;
+}

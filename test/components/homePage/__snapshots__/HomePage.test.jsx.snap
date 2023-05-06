@@ -1,0 +1,646 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HomePage /> debe hacer match con el SnapShot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="HomePage"
+      >
+        <section
+          class="SetionMenu"
+        >
+          <div
+            class="SectionMenu-img-movile"
+          >
+            <img
+              alt="Corte de carne"
+              src=""
+            />
+          </div>
+          <div
+            class="SectionMenu-text"
+          >
+            <div
+              class="SectionMenu-text-container"
+            >
+              <h1>
+                La Maison du Bon
+              </h1>
+              <h2>
+                Cuidamos con pasión y detalle cada platillo que elaboramos para ti
+              </h2>
+            </div>
+            <div
+              class="SectionMenu-text-img"
+            >
+              <img
+                alt="Relais & Chateaux MaisonDuBon"
+                src=""
+              />
+              <img
+                alt="50 Best restaurants"
+                src=""
+              />
+              <img
+                alt="B company certified"
+                src=""
+              />
+            </div>
+          </div>
+          <div
+            class="SectionMenu-img"
+          >
+            <img
+              alt="Mesa de cortes"
+              src=""
+            />
+          </div>
+        </section>
+        <div
+          class="SectionMenu-Bar"
+        >
+          <span
+            class="SectionMenu-line"
+          />
+          <span
+            class="SectionMenu-circle"
+          />
+          <span
+            class="SectionMenu-line"
+          />
+          <span
+            class="SectionMenu-circle"
+          />
+          <span
+            class="SectionMenu-line"
+          />
+        </div>
+        <section
+          class="SectionInfo"
+        >
+          <article
+            class="SectionInfo-item"
+          >
+            <img
+              alt="Image Recognition"
+              src=""
+            />
+            <h3>
+              Reconocimiento
+            </h3>
+            <p>
+              Tenemos grandes reconocimientos de los mejores críticos y varios premios
+            </p>
+          </article>
+          <article
+            class="SectionInfo-item"
+          >
+            <img
+              alt="Image Quality"
+              src=""
+            />
+            <h3>
+              Calidad
+            </h3>
+            <p>
+              Hacemos nuestros platillos con la mejor selección de productos calidad
+            </p>
+          </article>
+          <article
+            class="SectionInfo-item"
+          >
+            <img
+              alt="Image Events"
+              src=""
+            />
+            <h3>
+              Eventos
+            </h3>
+            <p>
+              Por celebración de 1er mes de apertura, tenemos nuestros precios a un 20% de descuento
+            </p>
+          </article>
+        </section>
+        <section
+          class="SectionAbout"
+        >
+          <img
+            alt="Logo Steak House"
+            class="SectionAbout-img"
+            src=""
+          />
+          <div
+            class="SectionAbout-info-container"
+          >
+            <article
+              class="SectionAbout-more"
+            >
+              <h2>
+                Sobre Nosotros
+              </h2>
+              <p>
+                Cocina Especializada en cortes, es un restaurante que reúne a una selección de cocinas dentro de un espacio diseñado para brindar una experiencia agradable a todos los sentidos.
+              </p>
+            </article>
+            <article
+              class="SectionAbout-container-info"
+            >
+              <div
+                class="SectionAbout-info-item"
+              >
+                <p
+                  class="info-item-top info-item-date"
+                >
+                  8 de agosto de 2022
+                </p>
+                <h3
+                  class="info-item-footer"
+                >
+                  Creación
+                </h3>
+              </div>
+              <div
+                class="SectionAbout-info-item"
+              >
+                <p
+                  class="info-item-top info-item-location"
+                >
+                  Del Refugio 40, Barrio del Atache, 40250 Taxco, Gro.
+                </p>
+                <h3
+                  class="info-item-footer"
+                >
+                  Ubicación
+                </h3>
+              </div>
+              <div
+                class="SectionAbout-info-item"
+              >
+                <div
+                  class="info-item-top"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                    data-testid="StarIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                    data-testid="StarIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                    data-testid="StarIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                    data-testid="StarIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                    data-testid="StarIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  class="info-item-footer"
+                >
+                  Rating
+                </h3>
+              </div>
+              <div
+                class="SectionAbout-info-item"
+              >
+                <div
+                  class="info-item-top"
+                >
+                  <div
+                    class="item-contact"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1h3wrv4-MuiSvgIcon-root"
+                      data-testid="MailIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+                      />
+                    </svg>
+                    <p>
+                      MaisonContact@gmail.com
+                    </p>
+                  </div>
+                  <div
+                    class="item-contact"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1h3wrv4-MuiSvgIcon-root"
+                      data-testid="PhoneIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                      />
+                    </svg>
+                    <p>
+                      +52 55 8725 2956
+                    </p>
+                  </div>
+                </div>
+                <h3
+                  class="info-item-footer"
+                >
+                  Contacto
+                </h3>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="HomePage"
+    >
+      <section
+        class="SetionMenu"
+      >
+        <div
+          class="SectionMenu-img-movile"
+        >
+          <img
+            alt="Corte de carne"
+            src=""
+          />
+        </div>
+        <div
+          class="SectionMenu-text"
+        >
+          <div
+            class="SectionMenu-text-container"
+          >
+            <h1>
+              La Maison du Bon
+            </h1>
+            <h2>
+              Cuidamos con pasión y detalle cada platillo que elaboramos para ti
+            </h2>
+          </div>
+          <div
+            class="SectionMenu-text-img"
+          >
+            <img
+              alt="Relais & Chateaux MaisonDuBon"
+              src=""
+            />
+            <img
+              alt="50 Best restaurants"
+              src=""
+            />
+            <img
+              alt="B company certified"
+              src=""
+            />
+          </div>
+        </div>
+        <div
+          class="SectionMenu-img"
+        >
+          <img
+            alt="Mesa de cortes"
+            src=""
+          />
+        </div>
+      </section>
+      <div
+        class="SectionMenu-Bar"
+      >
+        <span
+          class="SectionMenu-line"
+        />
+        <span
+          class="SectionMenu-circle"
+        />
+        <span
+          class="SectionMenu-line"
+        />
+        <span
+          class="SectionMenu-circle"
+        />
+        <span
+          class="SectionMenu-line"
+        />
+      </div>
+      <section
+        class="SectionInfo"
+      >
+        <article
+          class="SectionInfo-item"
+        >
+          <img
+            alt="Image Recognition"
+            src=""
+          />
+          <h3>
+            Reconocimiento
+          </h3>
+          <p>
+            Tenemos grandes reconocimientos de los mejores críticos y varios premios
+          </p>
+        </article>
+        <article
+          class="SectionInfo-item"
+        >
+          <img
+            alt="Image Quality"
+            src=""
+          />
+          <h3>
+            Calidad
+          </h3>
+          <p>
+            Hacemos nuestros platillos con la mejor selección de productos calidad
+          </p>
+        </article>
+        <article
+          class="SectionInfo-item"
+        >
+          <img
+            alt="Image Events"
+            src=""
+          />
+          <h3>
+            Eventos
+          </h3>
+          <p>
+            Por celebración de 1er mes de apertura, tenemos nuestros precios a un 20% de descuento
+          </p>
+        </article>
+      </section>
+      <section
+        class="SectionAbout"
+      >
+        <img
+          alt="Logo Steak House"
+          class="SectionAbout-img"
+          src=""
+        />
+        <div
+          class="SectionAbout-info-container"
+        >
+          <article
+            class="SectionAbout-more"
+          >
+            <h2>
+              Sobre Nosotros
+            </h2>
+            <p>
+              Cocina Especializada en cortes, es un restaurante que reúne a una selección de cocinas dentro de un espacio diseñado para brindar una experiencia agradable a todos los sentidos.
+            </p>
+          </article>
+          <article
+            class="SectionAbout-container-info"
+          >
+            <div
+              class="SectionAbout-info-item"
+            >
+              <p
+                class="info-item-top info-item-date"
+              >
+                8 de agosto de 2022
+              </p>
+              <h3
+                class="info-item-footer"
+              >
+                Creación
+              </h3>
+            </div>
+            <div
+              class="SectionAbout-info-item"
+            >
+              <p
+                class="info-item-top info-item-location"
+              >
+                Del Refugio 40, Barrio del Atache, 40250 Taxco, Gro.
+              </p>
+              <h3
+                class="info-item-footer"
+              >
+                Ubicación
+              </h3>
+            </div>
+            <div
+              class="SectionAbout-info-item"
+            >
+              <div
+                class="info-item-top"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                  data-testid="StarIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                  data-testid="StarIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                  data-testid="StarIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                  data-testid="StarIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium info-item-icon css-19sbr9r-MuiSvgIcon-root"
+                  data-testid="StarIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="info-item-footer"
+              >
+                Rating
+              </h3>
+            </div>
+            <div
+              class="SectionAbout-info-item"
+            >
+              <div
+                class="info-item-top"
+              >
+                <div
+                  class="item-contact"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1h3wrv4-MuiSvgIcon-root"
+                    data-testid="MailIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+                    />
+                  </svg>
+                  <p>
+                    MaisonContact@gmail.com
+                  </p>
+                </div>
+                <div
+                  class="item-contact"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1h3wrv4-MuiSvgIcon-root"
+                    data-testid="PhoneIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                    />
+                  </svg>
+                  <p>
+                    +52 55 8725 2956
+                  </p>
+                </div>
+              </div>
+              <h3
+                class="info-item-footer"
+              >
+                Contacto
+              </h3>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

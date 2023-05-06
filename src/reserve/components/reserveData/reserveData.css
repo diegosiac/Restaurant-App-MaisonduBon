@@ -1,0 +1,95 @@
+.ReserveData{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.ReserveData-Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.ReserveData-data{
+    box-shadow: #a7a7a7 0px -1px 0px inset;
+    margin: 20px 0;
+}
+
+.ReserveData-data h4{
+    margin-bottom: 10px;
+}
+
+.ReserveData-data p{
+    align-items: center;
+    display: flex;
+    font-size: var(--text-size-md);
+    height: 30px;
+}
+
+.ReserveData-footer{
+    margin-bottom: 7px;
+}
+
+.ReserveData-icon{
+    margin-right: 7px;
+}
+
+.ReserveData-text {
+    font-size: var(--text-size-xs);
+}
+
+.ReserveData-text h5{
+    font-size: var(--text-size-xs-plus);
+    margin-bottom: 10px;
+}
+
+.ReserveData-text p{
+    display: block;
+}
+
+.ReserveData-text-title {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.ReserveData-text-footer {
+    margin-bottom: 15px;
+}
+
+.ReserveData-submit{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 10px;
+}
+
+.ReserveData-submit button{
+    background-color: var(--box-reserve);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.ReserveData-submit button:hover{
+    background-color: var(--box-reserve-hover);
+}
+
+.ReserveData-submit button:disabled, .ReserveData-submit button:disabled:hover{
+    background-color: var(--box-reserve-disable);
+}
+
+@media only screen and (min-width: 650px) {
+    .ReserveData{
+        grid-column-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ReserveData-Info{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .ReserveData-submit {
+        grid-column: 1/3;
+
+    }
+}

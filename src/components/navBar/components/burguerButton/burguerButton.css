@@ -1,0 +1,67 @@
+.Nav-hamburger {
+    height: 100%;
+    width: 65px;
+    z-index: 1;
+    background-color: var(--box-hamburguer);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.icon {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  top: 17px;
+  left: 10px;
+  background-color: #fff;
+}
+
+.icon::before {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    content: "";
+    left: 5px;
+    top: -10px;
+}
+
+.icon::after {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    content: "";
+    left: 5px;
+    top: 10px; 
+}
+
+.openbtn {
+    transition-duration: 0.5s;
+    transform: rotateZ(-180deg);
+}
+
+.open::before {
+    transform: rotateZ(45deg) scaleX(0.60) translate(11px, 1px);
+    
+}
+
+.open::after {
+    transform: rotateZ(-45deg) scaleX(0.60) translate(11px, -1px);
+
+}

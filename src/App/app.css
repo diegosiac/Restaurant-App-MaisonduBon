@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --palete-dark: #1d191a;
+    --palete: #6e6e5f;
+    --palete-light: #bfb6a4;
+    --palete-lightest: #f5ecda;
+
+    --alert-warning: #3a3a3a;
+    --alert-error: #ca3838;
+    
+    --white-dark: #d1cbbe;
+    --white: #f5ecda;
+    --white-light: #f1f1f1;
+    
+    --folder-top: #666659;
+    --folder-section: #5c5c50;
+    
+    --text-size-xxs: 11.5px;
+    --text-size-xs: 12px;
+    --text-size-xs-plus: 13.5px;
+    --text-size-md: 14px;
+    --text-size-md-plus: 14.5px;
+    --text-size-lg: 16px;
+    --text-size-lg-plus: 19px;
+    --text-size-xl: 26px;
+    --text-size-xxl: 35px;
+    --text-heading: 35px;
+    
+    --text-color-dark: #494949;
+    --text-color-light-dark: #474747; 
+    --text-color-ligth: #fff;
+    --text-color-lightest: #fff;
+    --text-color-brown-dark: #4b2611;
+    --text-color-brown: #6f5b55;
+    --text-color-red: #da3743;
+    --text-color-orange: #e87636;
+    
+    --header-reserve: #ff5100;
+    --box-hamburguer: #e87636;
+    --box-reserve: #fd8d59;
+    --box-reserve-disable: #fd8d598f;
+    --box-reserve-hover: #f07b45;
+    --box-reserve-hover-red: #ac2e36;
+    
+    --box-reserve-green: #00a650;
+
+    --loader: #FF7A59;
+
+    --color-line: #7b7b7b;
+
+    --text-hover-color: #cc7a47;
+    --stars-hover-color: #c9a209;
+
+    --font-general: 'Chivo', 'Noto Sans', sans-serif;
+    --font-second: 'Noto Sans', sans-serif;
+};

@@ -1,0 +1,72 @@
+.MenuPage{
+    display: flex;
+    font-family: var(--font-general);
+    justify-content: center;
+    margin: 40px 0 80px;
+    text-align: center;
+}
+
+.MenuPage-Container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MenuPage-title{
+    color: var(--text-color-red);
+    font-size: var(--text-size-xl);
+    margin-bottom: 25px;
+}
+
+.MenuPage-NavBar {
+    display: flex;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.MenuPage-NavBar h3{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: var(--text-size-lg);
+    justify-content: center;
+    padding: 15px 0px;
+    transition: color 350ms, box-shadow 350ms;
+    width: 50%;
+} 
+
+.MenuPage-NavBar h3:hover{
+    box-shadow: var(--text-color-red) 0px -1px 0px inset;
+    color: var(--text-color-red);
+}
+
+.MenuPage-NavBar-active{
+    box-shadow: var(--text-color-red) 0px -1px 0px inset;
+    color: var(--text-color-red);
+}
+
+.MenuPage-season h4:nth-child(1){
+    color: var(--text-color-brown);
+    font-size: var(--text-size-lg-plus);
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-top: 35px;
+}
+
+.MenuPage-season h4:nth-child(2){
+    font-weight: bold;
+    color: var(--text-color-red);
+    font-size: var(--text-size-md);
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+.MenuPage-Menu {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.MenuPage-Menu p {
+    color: var(--text-color-brown);
+    margin: 20px 0;
+}

@@ -1,0 +1,54 @@
+.Burguer-container{
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .2s ease-in-out;
+}
+
+.Burguer-active {
+    transform-origin: right;
+    transform: scaleX(0.9);
+}
+
+.Burguer-menu {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    padding-right: 10px;
+    position: absolute;
+}
+
+.Burguer-menu a {
+    align-items: center;
+    color: var(--text-color-brown-dark);
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 5px;
+    position: relative;
+    text-decoration: none;
+}
+
+.Burguer-menu a::after{
+    background: var(--text-color-orange);
+    content: "";
+    height: 3px;
+    left: -100%;
+    position: absolute;
+    top: 0;
+    transition: left .8s;
+    width: 100%;
+}
+
+.Burguer-menu a:hover::after{
+    left: 0;
+}
+
+.Burguer-menu a.is-active {
+    color: var(--text-color-orange);
+    pointer-events: none;
+}

@@ -1,0 +1,18 @@
+.ReserveTop{
+    height: 25px;
+    font-size: var(--text-size-xs);
+    margin-top: 25px;
+    font-weight: 200;
+    display: flex;
+    box-shadow: #a7a7a7 0px -1px 0px inset;
+}
+
+.ReserveTop h3:nth-child(1){
+    padding-right: 15px
+}
+
+.ReserveTop-active {
+    color: var(--header-reserve);
+    border-bottom: 2px solid var(--header-reserve);
+}
+

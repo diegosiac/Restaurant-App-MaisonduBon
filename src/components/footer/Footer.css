@@ -1,0 +1,64 @@
+.Footer{
+    width: 100%;
+    padding: 50px 0 20px;
+    background-color: var(--palete-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-general);
+}
+
+.Footer a{
+    color: var(--text-color-light);
+    text-decoration: none;
+}
+
+.Footer-Container {
+    width: 90%;
+    color: var(--text-color-ligth);
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer-Network{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--text-size-xxs);
+}
+
+.Footer-About a:hover{
+    color: var(--text-hover-color);
+}
+
+.Footer-About ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 16px 0;
+}
+
+.Footer-Network-Container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Network-Items-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Network-Items{
+    margin: 0 0 5px;
+}
+
+.Network-Items:hover{
+    color: var(--text-hover-color);
+}
+
+.Footer-Text{
+    font-size: 10px;
+    max-width: 15rem;
+    margin: 20px auto 0;
+    text-align: center;
+}

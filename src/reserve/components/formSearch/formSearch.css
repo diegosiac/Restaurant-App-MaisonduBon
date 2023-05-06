@@ -1,0 +1,58 @@
+.ReserveSearch {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.ReserveSearch-container {
+    display: flex;
+    font-size: var(--text-size-md);
+    margin: 15px 0 10px;
+}
+
+.ReserveSearch-people, .ReserveSearch-time{
+    background-color: #fff;
+    border: 1px solid #cccccc ;
+    font-family: var(--font-second);
+    outline: none;
+}
+
+.ReserveSearch-people:hover, .ReserveSearch-time:hover {
+    border: 1px solid #000000b4 
+}
+
+.ReserveSearch-btn{
+    background-color: var(--box-reserve);
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0 5px;
+    transition: background-color 200ms ease-out 0s;
+}
+.ReserveSearch-btn:hover{
+    background-color: var(--box-reserve-hover);
+}
+
+.ReserveSearch-btn:disabled, .ReserveSearch-btn:disabled:hover{
+    background-color: var(--box-reserve-disable);
+}
+
+#People {
+    width: 80px;
+}
+
+#Time {
+    width: 65px;
+}
+
+@media only screen and (min-width: 520px) {
+    .ReserveSearch-container {
+        grid-auto-rows: minmax(40px, 0);
+        grid-template-columns: 95px 90px 85px 120px;
+    }
+    .ReserveSearch-btn{
+        grid-column: 4;
+    }
+
+}

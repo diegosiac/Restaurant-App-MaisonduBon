@@ -1,0 +1,23 @@
+.SearchData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.SearchData input{
+    width: 250px;
+    height: 35px;
+    background-color: var(--text-color-red);
+    color: #fff;
+    transition: background-color 300ms ease-out 0s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.SearchData input:hover{
+    background-color: var(--box-reserve-hover-red);
+}

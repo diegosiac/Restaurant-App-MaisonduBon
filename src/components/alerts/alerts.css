@@ -1,0 +1,18 @@
+.alerts-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.alerts {
+    font-size: var(--text-size-md);
+}
+
+.alerts-warning {
+    color: var(--alert-warning);
+}
+
+.alerts-error {
+    color: var(--alert-error);
+}

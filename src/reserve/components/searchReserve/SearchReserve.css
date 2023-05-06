@@ -1,0 +1,38 @@
+.SearchReserve {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    min-width: 378px;
+}
+
+.SearchReserve-title {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.SearchReserve form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+}
+
+.SearchReserve button {
+    background-color: var(--box-reserve);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.SearchReserve button:hover {
+    background-color: var(--box-reserve-hover);
+}
+
+.SearchReserve button:disabled, .SearchReserve button:disabled:hover {
+    cursor: default;
+    background-color: var(--box-reserve-disable);
+}
