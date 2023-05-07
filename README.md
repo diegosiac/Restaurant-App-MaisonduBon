@@ -36,7 +36,7 @@ Inicia el servidor
 
 ## Corre los test
 
-Para ejecutar pruebas, ejecute el siguiente comando
+Para ejecutar pruebas, ejecute el siguiente comando(las pruebas fueron hechas con jest.js)
 
 ```bash
   yarn test
