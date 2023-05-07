@@ -95,7 +95,7 @@ export const SearchReserve = () => {
             type='error'
             icon={<ErrorIcon sx={{ color: '#ca3838' }} />}
           />
-      }
+       }
       {
         cheking && <LoaderSpinner />
       }

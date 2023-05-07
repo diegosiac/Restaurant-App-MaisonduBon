@@ -1,10 +1,10 @@
 .Navbar {
-    width: 100%;
-    height: 60px;
-    min-height: 60px;
     display: flex;
-    justify-content: space-between;
     font-family: var(--font-general);
+    height: 60px;
+    justify-content: space-between;
+    min-height: 60px;
+    width: 100%;
 }
 
 .Nav-right{
@@ -13,16 +13,16 @@
 }
 
 .Nav-left-text {
-    height: 100%;
-    padding: 0 20px 0 40px;
-    font-size: var(--text-size-xl);
-    border-radius: 0 0 35px;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
     background-color: var(--palete-dark);
+    border-radius: 0 0 35px;
     color: #fff;
+    display: flex;
+    font-size: var(--text-size-xl);
+    font-weight: bold;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 0 20px 0 40px;
 }
 
 .Nav-left-text span {
